@@ -1,0 +1,22 @@
+Untersuchung der Corioliskraft durch Experimente und ein Computerprogramm
+
+
+Corioliskraft …
+die Kraft, die ganze Orkane bewegen kann; 
+die Kraft, die es vermag, Raketen vom Kurs abzubringen 
+         … ist doch nur eine Scheinkraft.
+
+Wir untersuchten diese Kraft im Zweidimensionalen, indem wir verschiedenartige Kugeln,
+eine schiefe Ebene hinab, über eine sich drehende Platte rollen ließen. 
+Um die Spuren aufzeichnen zu können, bepulverten wir diese mit Lykopodium (Bärlappsporen).
+Außerdem fragten wir uns, wie die seltsamen, manchmal kreisähnlichen Spuren zu Stande kamen. 
+Um die Kurve simulieren und berechnen zu können, schrieb Alexander ein eigenes Computerprogramm. 
+Neben der Corioliskraft berücksichtigten wir auch die Rollreibung auf 
+der Platte. 
+
+Somit stimmen die Kurven der Experimente gut mit denen der Simulation überein.
+Um zu verdeutlichen, dass die Corioliskraft auch im alltäglichen Leben vorkommt, 
+führten wir außerdem verschiedene Demonstrationen durch. 
+Ein wichtiges Ergebnis unserer Arbeit ist, dass wir die, durch die Corioliskraft
+entstehenden Bahnkurven im Zweidimensionalen simulieren können.
+
