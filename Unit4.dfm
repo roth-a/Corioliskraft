@@ -1,10 +1,10 @@
 object optio: Toptio
   Left = 288
   Top = 7
-  Width = 482
-  Height = 924
   AutoSize = True
   Caption = 'Options-Zentrale'
+  ClientHeight = 631
+  ClientWidth = 473
   Color = clBtnFace
   Constraints.MaxWidth = 500
   Constraints.MinWidth = 482
@@ -1468,6 +1468,10 @@ object optio: Toptio
     object TabSheet2: TTabSheet
       Caption = 'Zufallsoptionen'
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object GroupBox6: TGroupBox
         Left = 8
         Top = 232

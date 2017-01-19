@@ -56,7 +56,7 @@ type
     Aktualisieren1: TMenuItem;
     Infos1: TMenuItem;
     StatusBar1: TStatusBar;
-    Gauge1: TGauge;
+    Gauge1: TProgressBar;
     Memo1: TMemo;
     Hilfe1: TMenuItem;
     Image1: TImage;
@@ -833,7 +833,7 @@ end;
 procedure Thaupt.FormCreate(Sender: TObject);
 var    stelle:byte;
 begin
-  version:=anderes.getfileversion(Application.ExeName);
+//  version:=anderes.getfileversion(Application.ExeName);
   //hier wird jetzt die punkte weggemacht bis auf den 1. damit es auch schön aussieht
   stelle:=pos('.',version)+1;
   repeat

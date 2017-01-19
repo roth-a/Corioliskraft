@@ -2,7 +2,6 @@ object haupt: Thaupt
   Left = 312
   Top = 329
   HelpType = htKeyword
-  AutoScroll = False
   BorderIcons = [biSystemMenu, biMinimize, biMaximize, biHelp]
   Caption = 'Corioliskraft'
   ClientHeight = 508
@@ -1061,16 +1060,15 @@ object haupt: Thaupt
     Transparent = True
     OnClick = Image1Click
   end
-  object Gauge1: TGauge
+  object Gauge1: TProgressBar
     Left = 0
     Top = 192
     Width = 121
     Height = 25
     Hint = 'Zeigt den Prozessfortschritt'
-    ForeColor = clNavy
     ParentShowHint = False
-    Progress = 0
     ShowHint = True
+    TabOrder = 16
   end
   object BBerechnen: TButton
     Left = 0

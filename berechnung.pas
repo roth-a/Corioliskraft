@@ -158,7 +158,7 @@ begin
   setlength(geradeaus,1000);
   lauf:=-1;
   mentfernung:=10000000;
-  haupt.Gauge1.Progress:=0;
+  haupt.Gauge1.Position:=0;
   blauweg:=0; rotweg:=0;
 
   koor.x:= -r; koor.y:=0;
@@ -293,7 +293,7 @@ begin
   zeichne.canvaszeichnen;
   schreibeinfofenster;
 
-  haupt.Gauge1.Progress:=100;
+  haupt.Gauge1.Position:=100;
   info.Label124.Caption:=inttostr(anderes.berechnungsdauer)+' ms';
   haupt.wdrss(false);
   stop:=true;
@@ -323,18 +323,18 @@ begin
     info.Label109.Caption:=floattostr(roundto(haupt.pixeltocm(eingabe.haupt.scheibenradius),-2))+' cm';
     if rrechts then  info.Label108.Caption:='Im Uhrzeigersinn' else info.Label108.Caption:='Gegen den Uhrzeigersinn';
     info.Label112.Caption:=floattostr(roundto(haupt.pixeltocm(eingabe.haupt.x),-1))+' cm';
-    info.Gauge112.Progress:=round(eingabe.haupt.x/eingabe.haupt.scheibenradius*50)+50;
+    info.Gauge112.Position:=round(eingabe.haupt.x/eingabe.haupt.scheibenradius*50)+50;
     info.Label113.Caption:=floattostr(roundto(haupt.pixeltocm(eingabe.haupt.y),-1))+' cm';
-    info.Gauge113.Progress:=round(eingabe.haupt.y/eingabe.haupt.scheibenradius*50)+50;
+    info.Gauge113.Position:=round(eingabe.haupt.y/eingabe.haupt.scheibenradius*50)+50;
     info.Label110.Caption:=floattostr(eingabe.optio.berechnungspausen)+' ms';
     if optio.CheckBoxLog2.Checked then info.Label123.Caption:=inibuchstabe+inttostr(laufins-1)+'.ini' //hier muss minus 1 hin weil laufins vor dem infofenster schon erhöht wird
       else info.Label123.Caption:='keine Protokollierung';
     end;
 
   info.Label121.Caption:= floattostr(roundto(dt*1000,-3))+' ms';
-  info.Gauge121.Progress:=round(dt/dtmax*100);
+  info.Gauge121.Position:=round(dt/dtmax*100);
   info.Label125.Caption:=inttostr(eingabe.optio.Schieberegler);
-  info.Gauge125.Progress:=round(eingabe.optio.Schieberegler/optio.Schieberegler.Max*100);
+  info.Gauge125.Position:=round(eingabe.optio.Schieberegler/optio.Schieberegler.Max*100);
 
   //jetzt kommen die variablen
   haupt.StatusBar1.Panels[4].Text:='Umdrehungen = '+floattostr(roundto(  winkelgeschwindigkeit*alldt/2/pi   ,-2));
@@ -342,7 +342,7 @@ begin
 
   info.Label102.Caption:=floattostr(roundto(haupt.pixeltocm(k.geschwindigkeit.geschwindigkeit),-1))+' cm/s';
   info.Label105.Caption:=floattostr(roundto(  winkelgeschwindigkeit*alldt/2/pi   ,-2));
-  info.Gauge105.Progress:=round(winkelgeschwindigkeit*alldt/2/pi*100) mod 100;
+  info.Gauge105.Position:=round(winkelgeschwindigkeit*alldt/2/pi*100) mod 100;
   if lauf=0 then
     begin
     info.Label114.Caption:=floattostr(roundto(haupt.pixeltocm(k.schreiben.x),-1))+' cm';
@@ -353,18 +353,18 @@ begin
     if anderes.arraynichtleer then
       begin
       info.Label114.Caption:=floattostr(roundto(haupt.pixeltocm(punkte[lauf-1].x),-1))+' cm';
-      info.Gauge114.Progress:=round(punkte[lauf-1].x/eingabe.haupt.scheibenradius*50)+50;
+      info.Gauge114.Position:=round(punkte[lauf-1].x/eingabe.haupt.scheibenradius*50)+50;
       info.Label115.Caption:=floattostr(roundto(haupt.pixeltocm(punkte[lauf-1].y),-1))+' cm';
-      info.Gauge115.Progress:=round(punkte[lauf-1].y/eingabe.haupt.scheibenradius*50)+50;
+      info.Gauge115.Position:=round(punkte[lauf-1].y/eingabe.haupt.scheibenradius*50)+50;
       end;
     end;
   info.Label116.Caption:=floattostr(roundto(haupt.pixeltocm(mentfernung),-1))+' cm';
-  info.Gauge116.Progress:=round(mentfernung/eingabe.haupt.scheibenradius*100);
+  info.Gauge116.Position:=round(mentfernung/eingabe.haupt.scheibenradius*100);
   info.Label117.Caption:=floattostr(roundto(haupt.pixeltocm(radius),-1))+' cm';
-  info.Gauge117.Progress:=round(radius/eingabe.haupt.scheibenradius*100);
+  info.Gauge117.Position:=round(radius/eingabe.haupt.scheibenradius*100);
   if eingabe.haupt.reibungein then  tempi:=lauf*2 else tempi:= lauf+2;
   info.Label120.Caption:=inttostr(tempi) ;
-  info.Gauge120.Progress:=round(tempi/200);    //das ist so weil lauf/20000  *100
+  info.Gauge120.Position:=round(tempi/200);    //das ist so weil lauf/20000  *100
   info.Label124.Caption:=floattostr(roundto(anderes.berechnungsdauer/1000,-2))+' s';
 
   // hier schaut er ob das Klickkästchen auch angekreuzt ist und die Enfernung auch ncht größer ist als die vorherige.
@@ -375,8 +375,8 @@ begin
     end;
 
   //hier macht er die prozente mit der gauge
-  if (not eingabe.haupt.reibungein)or ((haupt.Gauge1.Progress<95)and(eingabe.haupt.reibungein))
-  then haupt.Gauge1.Progress:=round(k.geschwindigkeit.geschwindigkeit*alldt*100/weg);
+  if (not eingabe.haupt.reibungein)or ((haupt.Gauge1.Position<95)and(eingabe.haupt.reibungein))
+  then haupt.Gauge1.Position:=round(k.geschwindigkeit.geschwindigkeit*alldt*100/weg);
 
   info.Label35.Caption:=floattostr(roundto(haupt.pixeltocm( k.geschwindigkeit.realtivgeschwindigkeit  ),-1));
   info.Label22.Caption:=floattostr(roundto(haupt.pixeltocm(k.geschwindigkeit.relativ.x),-1))+' cm/s';
@@ -392,14 +392,14 @@ begin
     info.label130.Caption:=inttostr(round(
             (eingabe.haupt.kugelgeschwindigkeit-haupt.pixeltocm(k.geschwindigkeit.geschwindigkeit))
             /eingabe.haupt.kugelgeschwindigkeit*100))+'%';
-    info.gauge130.Progress:=abs(100-round(
+    info.gauge130.Position:=abs(100-round(
             (eingabe.haupt.kugelgeschwindigkeit-haupt.pixeltocm(k.geschwindigkeit.geschwindigkeit))
             /eingabe.haupt.kugelgeschwindigkeit*100));
     end
   else
     begin
     info.label130.Caption:='-unendlich';
-    info.gauge130.Progress:=0;
+    info.gauge130.Position:=0;
     end;
 
 

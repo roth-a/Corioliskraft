@@ -11,7 +11,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, Gauges;
+  Dialogs, StdCtrls, ComCtrls;
 
 type
   Tinfo = class(TForm)
@@ -86,19 +86,19 @@ type
     Label37: TLabel;
     Label38: TLabel;
     Label39: TLabel;
-    Gauge121: TGauge;
-    Gauge116: TGauge;
-    Gauge114: TGauge;
-    Gauge115: TGauge;
-    Gauge117: TGauge;
-    Gauge125: TGauge;
-    Gauge112: TGauge;
-    Gauge113: TGauge;
+    Gauge121: TProgressBar;
+    Gauge116: TProgressBar;
+    Gauge114: TProgressBar;
+    Gauge115: TProgressBar;
+    Gauge117: TProgressBar;
+    Gauge125: TProgressBar;
+    Gauge112: TProgressBar;
+    Gauge113: TProgressBar;
     Label40: TLabel;
-    Gauge130: TGauge;
+    Gauge130: TProgressBar;
     Label130: TLabel;
-    Gauge120: TGauge;
-    Gauge105: TGauge;
+    Gauge120: TProgressBar;
+    Gauge105: TProgressBar;
     procedure Button2Click(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);

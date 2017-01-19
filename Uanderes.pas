@@ -10,7 +10,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, ExtCtrls,math,StdCtrls,JclFileUtils;
+  Dialogs, ExtCtrls,math,StdCtrls;
 
 
 
@@ -308,14 +308,14 @@ end;
   Detailed description:
 -----------------------------------------------------------------------------}
 function Tanderes.GetFileVersion(FileName: string): string;
-var fi: TJclFileVersionInfo;
+//var fi: TJclFileVersionInfo;
 begin
-  fi:=TJclFileVersionInfo.Create(FileName);
-  try
-    result:=fi.FileVersion;
-  finally
-    fi.free;
-  end;
+//  fi:=TJclFileVersionInfo.Create(FileName);
+//  try
+//    result:=fi.FileVersion;
+//  finally
+//    fi.free;
+//  end;
 end;
 
 
