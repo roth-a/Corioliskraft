@@ -1,7 +1,10 @@
+This program compiles without any special dependencies in Turbo Delphi 2006 Explorer.
+
+
 Dies ist die Hilfe zu dem Simulationsprogramm der Corioliskraft.
 
-Einführung:
-Schön dass Sie Interesse für dieses physikalische Gesetz mitbringen:
+EinfÃ¼hrung:
+SchÃ¶n dass Sie Interesse fÃ¼r dieses physikalische Gesetz mitbringen:
 Die Corioliskraft:
 Nachzulesen unter:
 http://de.wikipedia.org/wiki/Corioliskraft
@@ -11,66 +14,66 @@ Die Hilfe:
 
 Die Tastenkombinationen (Hotkeys):
 F1 = Readme Datei aufrufen
-F9 = Berechnung ausführen
+F9 = Berechnung ausfÃ¼hren
 P = Pause anfang und Pause ende
 F11 = Zufallskurven berechnen
 ESC = Stoppen
 S = Speichert das Bild in eine Datei
 Strg+S = Speichert die Einstellungen in eine Ini-Datei
-Strg+O = Öffnet die Einstellungen aus einer ini-Datei
-i = Öffnet das Informationsfenster
-a = about, öffnet die Information über das Programm
+Strg+O = Ã–ffnet die Einstellungen aus einer ini-Datei
+i = Ã–ffnet das Informationsfenster
+a = about, Ã¶ffnet die Information Ã¼ber das Programm
 v = Versionsinfo anzeigen
 z = erstellt Zufallswerte
-o = Öffnet das Fenster mit den Optionen
+o = Ã–ffnet das Fenster mit den Optionen
 R = Setzt die Kugel in umgekehrter Rollrichtung an den Rand
-Mausrad = Bildzoomen  (Nur wenn das Häckchen bei Automatisch weg ist)
-Rechte Maustaste halten un ziehen = Bild bewegen   (Nur wenn das Häckchen bei Automatisch weg ist)
+Mausrad = Bildzoomen  (Nur wenn das HÃ¤ckchen bei Automatisch weg ist)
+Rechte Maustaste halten un ziehen = Bild bewegen   (Nur wenn das HÃ¤ckchen bei Automatisch weg ist)
 
 
 Funktionen:
-"Am Ende zurückdrehen" = Dreht die Platte zurück bis der erste Punkt der Spur wieder 
+"Am Ende zurÃ¼ckdrehen" = Dreht die Platte zurÃ¼ck bis der erste Punkt der Spur wieder 
                                                         an der Anfangsposition ist.
-Einstellungen --> Speichern = Dort können sie die derzeitigen Einstellungen in einer
+Einstellungen --> Speichern = Dort kÃ¶nnen sie die derzeitigen Einstellungen in einer
                               INI-Datei speichern
-Einstellungen --> Öffnen = Dort können sie die gespeicherten Einstellungen aus einer
-                           INI-Datei öffnen
-Berechnung --> Spur zurückverfolgen = setzt die Kugel in entgegengesetzter Roll-Richtung
+Einstellungen --> Ã–ffnen = Dort kÃ¶nnen sie die gespeicherten Einstellungen aus einer
+                           INI-Datei Ã¶ffnen
+Berechnung --> Spur zurÃ¼ckverfolgen = setzt die Kugel in entgegengesetzter Roll-Richtung
                                    an den Scheibenrand.
 Berechnung --> Optionen --> Autoaktualisieren aus = Dann wird allerdings das Plattenkoordinatensystem
-                                    der Übersichtlichkeit halber nicht mitgedreht
-Berechnung --> Optionen --> Schrift = Zeigt Schriftzüge an dem Koordinatensysten und dem Spurenden.
+                                    der Ãœbersichtlichkeit halber nicht mitgedreht
+Berechnung --> Optionen --> Schrift = Zeigt SchriftzÃ¼ge an dem Koordinatensysten und dem Spurenden.
 
-Durch anklicken des gebogenen Pfeils kann man die Drehrichtung der Platte verändern.
-Durch anklicken der Überschrift "Umlaufsdauer" kann in die Winkelgeschwindigkeit gewechselt werden. 
+Durch anklicken des gebogenen Pfeils kann man die Drehrichtung der Platte verÃ¤ndern.
+Durch anklicken der Ãœberschrift "Umlaufsdauer" kann in die Winkelgeschwindigkeit gewechselt werden. 
                    Ebenso umgekehrt.
 
-Unten in der Leiste steht manchmal Abkürzungen wie:
+Unten in der Leiste steht manchmal AbkÃ¼rzungen wie:
 A. = Aktuelle/r/s
 Gesch. = Geschwindigkeit
 
 Farben:
 - Die Rote gebogene Linie ist die Darstellung der Corioliskraft. So wie man die Flugbahn der
-  Kugel sehen würde wenn man auf der Platte stände, oder wenn man die Platte mit Mehl bestreuen
-  und die Spur sehen würde.
-- Die Dunkelblaue Linie ist die Sicht von Aussen, wie die Kugel laufen würde.
-- Die grünen Linien sind ein Koordinatensystem auf der Scheibe.
+  Kugel sehen wÃ¼rde wenn man auf der Platte stÃ¤nde, oder wenn man die Platte mit Mehl bestreuen
+  und die Spur sehen wÃ¼rde.
+- Die Dunkelblaue Linie ist die Sicht von Aussen, wie die Kugel laufen wÃ¼rde.
+- Die grÃ¼nen Linien sind ein Koordinatensystem auf der Scheibe.
 - Der kleine schwarze Kreis der manchmal erscheint soll die Kugel darstellen.
-- Der grüne kleine Strich ist die Richtung die die Kugel später nehmen wird.
-  Dies kann man durch die Winkeleinstellung verändern.
+- Der grÃ¼ne kleine Strich ist die Richtung die die Kugel spÃ¤ter nehmen wird.
+  Dies kann man durch die Winkeleinstellung verÃ¤ndern.
 
 
 Zoomen und Verschieben:
-Sie können wenn Sie unter Optionen --> Automatisch das Häckchen wegmachen das Bild gan komfortabel mit dem Mausrad zoomen.
-Sie sollten, damit man auf eine bestimmte Stelle im Bild zoomen kann, unter Optionen --> "Automatische Position" das Häckchen wegmachen.
-Nun können Sie nach belieben das Bild mit der rechten Maustaste haltend verschieben.
+Sie kÃ¶nnen wenn Sie unter Optionen --> Automatisch das HÃ¤ckchen wegmachen das Bild gan komfortabel mit dem Mausrad zoomen.
+Sie sollten, damit man auf eine bestimmte Stelle im Bild zoomen kann, unter Optionen --> "Automatische Position" das HÃ¤ckchen wegmachen.
+Nun kÃ¶nnen Sie nach belieben das Bild mit der rechten Maustaste haltend verschieben.
 
 
 
 Wichtige aktuelle Daten werden unten in der Statusleiste angezeigt. 
-Besonders interessant ist die aktuelle Geschwindigkeit, während einer Berechnung.
+Besonders interessant ist die aktuelle Geschwindigkeit, wÃ¤hrend einer Berechnung.
 
-Ich würde mich über Fragen und Anregungen oder Verbesserungsvorschlägen freuen.
+Ich wÃ¼rde mich Ã¼ber Fragen und Anregungen oder VerbesserungsvorschlÃ¤gen freuen.
 Einfach mir mal eine Mail senden: roth-a@gmx.de
 Und meine Homepage: http://mitglied.lycos.de/rothalexander/
 
