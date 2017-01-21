@@ -68,5 +68,3 @@ Sie können wenn Sie unter Optionen --> Automatisch das Häckchen wegmachen das 
 Wichtige aktuelle Daten werden unten in der Statusleiste angezeigt. 
 Besonders interessant ist die aktuelle Geschwindigkeit, während einer Berechnung.
 
-Ich würde mich über Fragen und Anregungen oder Verbesserungsvorschlägen freuen.
-Einfach mir mal eine Mail senden: roth-a@gmx.de 
