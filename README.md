@@ -1,8 +1,10 @@
 # Corioliskraft
 
-Dies ist die Hilfe zu dem Simulationsprogramm der Corioliskraft.
+Ich habe dieses Programm kreiert um die Spur der Kugel auf einer rollenden Platte zu erklären. Mit dem projekt und diesem Programm habe ich den [Regional- und Landeswettbewerb](http://www.jugend-forscht.de/projektdatenbank/untersuchung-der-corioliskraft-durch-experimente-und-ein-computerprogramm.html) Jugend Forscht gewonnnen.
 
-Es simuliert eine rollende Kugel auf einer drehenden Scheibe. Dabei wird auch Rollreibung berücksichtigt. Es werden folgende Spuren dargestellt
+
+
+Das Programm simuliert eine rollende Kugel auf einer drehenden Scheibe. Dabei wird auch Rollreibung berücksichtigt. Es werden folgende Spuren dargestellt
 
 * blau: Die Bahn der Kugel vom nicht-rotierenden Bezugssystem
 * rot: Die Bahn der Kugel aus sicht des rotierenden Bezugssystems
